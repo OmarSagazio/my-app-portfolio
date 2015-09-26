@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_btn_prjs">#F08C35</color>
+    <color name="bg_btn_capstone">#ff0000</color>
+    <color name="txt_btn_capstone">#fff</color>
+</resources>

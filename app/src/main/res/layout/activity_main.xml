@@ -9,57 +9,41 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/header"
+        android:layout_marginBottom="24dp"
         android:layout_marginTop="16dp"
+        android:text="@string/header"
         android:textSize="24sp"/>
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:background="#F08C35"
-        android:text="@string/ttl_spotify"
-        android:layout_marginTop="32dp"
-        android:onClick="btnSpotifyStreamer"/>
+        style="@style/btn.prjs"
+        android:onClick="btnSpotifyStreamer"
+        android:text="@string/ttl_spotify"/>
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="#F08C35"
-        android:text="@string/ttl_scores"
-        android:onClick="btnScoresApp"/>
+        style="@style/btn.prjs"
+        android:onClick="btnScoresApp"
+        android:text="@string/ttl_scores"/>
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="#F08C35"
-        android:text="@string/ttl_library"
-        android:onClick="btnLibraryApp"/>
+        style="@style/btn.prjs"
+        android:onClick="btnLibraryApp"
+        android:text="@string/ttl_library"/>
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="#F08C35"
-        android:text="@string/ttl_build_it"
-        android:onClick="btnBuildItBigger"/>
+        style="@style/btn.prjs"
+        android:onClick="btnBuildItBigger"
+        android:text="@string/ttl_build_it"/>
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="#F08C35"
-        android:text="@string/ttl_xyz"
-        android:onClick="btnXYZReader"/>
+        style="@style/btn.prjs"
+        android:onClick="btnXYZReader"
+        android:text="@string/ttl_xyz"/>
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="#ff0000"
+        style="@style/btn"
+        android:background="@color/bg_btn_capstone"
+        android:onClick="btnCapstone"
         android:text="@string/ttl_capstone"
-        android:textColor="#fff"
-        android:onClick="btnCapstone"/>
+        android:textColor="@color/txt_btn_capstone"/>
 
 </LinearLayout>
